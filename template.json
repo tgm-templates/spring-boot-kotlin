@@ -1,0 +1,19 @@
+{
+  "name": "spring-boot-kotlin",
+  "repository": "https://github.com/tgm-templates/spring-boot-kotlin",
+  "description": "Spring Boot Kotlin App",
+  "post_create": "mvn -DskipTests compile",
+  "variables": [
+    {
+      "name": "groupId",
+      "description": "Maven groupId"
+    },
+    {
+      "name": "artifactId",
+      "description": "Maven artifactId"
+    }
+  ],
+  "files": [
+    "pom.xml"
+  ]
+}
