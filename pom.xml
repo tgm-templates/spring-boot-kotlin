@@ -10,12 +10,12 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
+        <spring-boot.version>2.4.0</spring-boot.version>
         <junit5.version>5.7.0</junit5.version>
         <kotlin.version>1.4.10</kotlin.version>
-        <kotlin-coroutines.version>1.3.9</kotlin-coroutines.version>
-        <mockk.version>1.9.3</mockk.version>
-        <springmockk.version>2.0.3</springmockk.version>
+        <kotlin-coroutines.version>1.4.1</kotlin-coroutines.version>
+        <mockk.version>1.10.2</mockk.version>
+        <springmockk.version>3.0.0</springmockk.version>
         <assertk.version>0.23</assertk.version>
     </properties>
 
@@ -79,18 +79,13 @@
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-params</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.17.2</version>
+            <version>3.18.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
