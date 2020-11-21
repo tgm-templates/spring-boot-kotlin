@@ -12,7 +12,7 @@
         <java.version>1.8</java.version>
         <spring-boot.version>2.4.0</spring-boot.version>
         <junit5.version>5.7.0</junit5.version>
-        <kotlin.version>1.4.10</kotlin.version>
+        <kotlin.version>1.4.20</kotlin.version>
         <kotlin-coroutines.version>1.4.1</kotlin-coroutines.version>
         <mockk.version>1.10.2</mockk.version>
         <springmockk.version>3.0.0</springmockk.version>
