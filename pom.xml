@@ -10,10 +10,10 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-boot.version>2.5.4</spring-boot.version>
-        <junit5.version>5.8.0</junit5.version>
-        <kotlin.version>1.5.31</kotlin.version>
-        <kotlin-coroutines.version>1.5.2</kotlin-coroutines.version>
+        <spring-boot.version>2.6.2</spring-boot.version>
+        <junit5.version>5.8.2</junit5.version>
+        <kotlin.version>1.6.10</kotlin.version>
+        <kotlin-coroutines.version>1.6.0</kotlin-coroutines.version>
         <mockk.version>1.11.0</mockk.version>
         <springmockk.version>3.0.1</springmockk.version>
         <assertk.version>0.23</assertk.version>
